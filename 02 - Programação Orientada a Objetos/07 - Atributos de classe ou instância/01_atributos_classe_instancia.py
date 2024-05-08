@@ -1,5 +1,5 @@
 class Estudante:
-    escola = "DIO"
+    escola = "DIO" #atributo
 
     def __init__(self, nome, matricula):
         self.nome = nome
