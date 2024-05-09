@@ -1,3 +1,7 @@
+## python -m venv .env
+## source .env/bin/activate
+## pip intstall pytz
+
 from datetime import datetime
 
 import pytz

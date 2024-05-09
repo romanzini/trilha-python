@@ -5,3 +5,4 @@ data_sao_paulo = datetime.now(timezone(timedelta(hours=-3)))
 
 print(data_oslo)
 print(data_sao_paulo)
+print(datetime.now())

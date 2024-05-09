@@ -1,12 +1,5 @@
-class Foo:
-    def hello(self):
-        print(self.__class__.__name__.lower())
+from datetime import datetime, timedelta 
 
-
-class Bar(Foo):
-    def hello(self):
-        return super().hello()
-
-
-bar = Bar()
-bar.hello()
+d = datetime(2023, 1, 1) 
+new_date = d + timedelta(days=10) 
+print(new_date)
