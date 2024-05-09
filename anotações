@@ -1,0 +1,11 @@
+# criando ambientes virtuais
+python -m venv .env
+source .env/bin/activate
+deactivate 
+
+### utilizar o pipenv ao invés do pip
+pip install pipenv (não pode estar dentro do ambiente virtual, precisa ser global na máquina)
+pipenv install numpy (exemplo)
+pipenv uninstall numpy
+pipenv lock
+pipenv graph
