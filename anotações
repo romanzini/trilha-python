@@ -9,3 +9,19 @@ pipenv install numpy (exemplo)
 pipenv uninstall numpy
 pipenv lock
 pipenv graph
+
+****USAR ESTE PARA INSTALAR OS PACOTES****
+pip install poetry (outro gerenciador de pacotes para python)
+poetry new myproject (para criar o projeto e o ambiente virtual)
+cd myproject
+poetry add numpy
+poetry remove numpy
+poetry init (para adicionar o poetry em um projeto já existente)
+
+# ferramente de conrole de formatação do código para o padrão pep8
+flake8
+black
+
+# Organização de imports
+isort
+
